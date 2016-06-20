@@ -1,0 +1,9 @@
+__pycache__/
+.DS_store
+data/
+clean*/
+window_size*/
+reduce_by*/
+csv_for*/
+*.csv
+nohup.out
