@@ -11,7 +11,6 @@ import os
 import time
 import math
 import re
-import numpy as np
 from operator import itemgetter, attrgetter, methodcaller
 
 ## order -----------------------------------------------------------------------
