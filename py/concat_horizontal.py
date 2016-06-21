@@ -68,7 +68,7 @@ def main():
 				out[i] = out[i] + "," + f[i]
 
 		# unique file for csv
-		outfile = open(directory + "concat_h_" + filenames[0] + "." + "csv",'w+')
+		outfile = open(directory + "concat_h_" + filenames[0].split('/')[-1].split('.')[0] + "." + "csv",'w+')
 
 		# write out all lines
 		for line in out:
